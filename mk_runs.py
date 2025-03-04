@@ -44,15 +44,15 @@ on["W-Hya"] = \
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1['mars']   = ""
-pars1["3C273"]     = "pix_list=0,1,2,3"
-pars1["3C279"]     = "pix_list=0,1,2,3"
-pars1["CIT6"]      = "pix_list=0,1,2,3"
-pars1["IRC+10216"] = "pix_list=0,1,2,3"
-pars1["Ori-KL"]    = "pix_list=0,1,2,3"
-pars1["R-Leo"]     = "pix_list=0,1,2,3"
-pars1["RT-Vir"]    = "pix_list=0,1,2,3"
-pars1["RX-Boo"]    = "pix_list=0,1,2,3"
-pars1["W-Hya"]     = "pix_list=0,1,2,3"
+pars1["3C273"]     = "pix_list=0,1,2,3"                    # no line
+pars1["3C279"]     = "pix_list=0,1,2,3"                    # no line
+pars1["CIT6"]      = "pix_list=0,1,2,3 dv=50 dw=100"
+pars1["IRC+10216"] = "pix_list=0,1,2,3 dv=50 dw=100"
+pars1["Ori-KL"]    = "pix_list=0,1,2,3"                    # many (&broad) lines
+pars1["R-Leo"]     = "pix_list=0,1,2,3 dv=30 dw=60"
+pars1["RT-Vir"]    = "pix_list=0,1,2,3 dv=30 dw=60"
+pars1["RX-Boo"]    = "pix_list=0,1,2,3 dv=30 dw=60"
+pars1["W-Hya"]     = "pix_list=0,1,2,3 dv=30 dw=60"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
