@@ -10,7 +10,7 @@ project="2024S1MSIP1mmCommissioning"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on['mars'] = [ 116442 ]
+#on['mars'] = [ 116442 ]
 
 #  note lower case also available for some of these
 on["3C273"] = \
